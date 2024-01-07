@@ -63,4 +63,37 @@ footer {
 
 .video-container {
     margin-top: 20px;
+} 
+
+.listado {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Hace que la lista sea un contenedor flexible */
+}
+
+.listado li {
+    margin-right: 10px; /* Ajusta el espacio entre los elementos de la lista */
+}
+
+.listado .marca {
+    margin-right: 5px;
+    color: red; /* Puedes ajustar el color según tus preferencias */
+}
+
+/* Agrega estilos para centrar la imagen */
+.imagen-inicio-container {
+    text-align: center;
+}
+
+.imagen-inicio {
+    width: 70px; /* Ajusta el ancho según tus preferencias */
+    height: auto; /* Esto asegura que la altura se ajuste proporcionalmente */
+}
+.nombre {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.palabras-centradas {
+    text-align: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
 }
