@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Color de fondo para el cuerpo de la página */
+    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -59,4 +59,8 @@ footer {
 
 .redes-sociales a:hover {
     text-decoration: underline;
+}
+
+.video-container {
+    margin-top: 20px;
 }
